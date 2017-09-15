@@ -1,0 +1,2 @@
+# VerticalImageSpan
+Android图片垂直居中的ImageSpan
