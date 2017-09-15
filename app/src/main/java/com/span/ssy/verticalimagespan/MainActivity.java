@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             int start = m.start(0);
             int end = m.end(0);
             String group = m.group();
-            Drawable drawable = getResources().getDrawable(R.mipmap.note_product_cart);
+            Drawable drawable = getResources().getDrawable(R.mipmap.ic_launcher_round);
             drawable.setBounds(0, 0, drawable.getIntrinsicWidth(), drawable.getIntrinsicHeight());
             VerticalImageSpan imageSpan=new VerticalImageSpan(drawable);
             spannableString.setSpan(imageSpan, start, end, Spannable.SPAN_INCLUSIVE_EXCLUSIVE);
